@@ -1,0 +1,13 @@
+   name: bears
+   channels:
+     - conda-forge
+   dependencies:
+     - python=3.13
+     - pip
+     - pip:
+       - --extra-index-url https://download.pytorch.org/whl/cpu
+       - torch
+       - torchvision
+       - fastai
+       - ipywidgets
+       - voila
